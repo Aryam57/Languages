@@ -1,0 +1,35 @@
+body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f0f8ff; /* خلفية بيج */
+                    }
+                    .container {
+                        max-width: 800px;
+                        margin: 20px auto;
+                        padding: 20px;
+                        background-color: #ffffff; /* أبيض */
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تظليل */
+                    }
+                    h2 {
+                        margin-bottom: 20px;
+                    }
+                    .trainer-box {
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        padding: 20px;
+                        background-color: #fff;
+                        margin-top: 20px;
+                    }
+                    .trainer-name {
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                    .details {
+                        margin-bottom: 10px;
+                    }
+                    .rating {
+                        color: -90deg,hsl(151, 58%, 46%) 0%; 
+                        margin-bottom: 10px;
+                    }

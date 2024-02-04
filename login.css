@@ -1,0 +1,129 @@
+body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f0f8ff; /* خلفية بيج */
+                    }
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff; /* أبيض */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تظليل */
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+    color:#e68b61 ;
+}
+.option-container {
+    display: flex;
+    justify-content: space-between;
+}
+.option {
+    flex: 0 0 48%;
+}
+.option button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa500; /* برتقالي */
+    color: #84cbe3;
+    font-size: 16px;
+    cursor: pointer;
+}
+.option button:hover {
+    background-color: #ff7f00; /* لون برتقالي داكن عند التحويل */
+}
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa500; /* برتقالي */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: -90deg,hsl(151, 58%, 46%) 0%; /* لون برتقالي داكن عند التحويل */
+}
+
+
+
+
+/**/
+
+.form-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d3e9f8; /* أبيض */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تظليل */
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    text-align: right;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="file"] {
+    margin-bottom: 20px;
+}
+.button {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 5px;
+                        
+                        background-color:#e68b61 ; /* برتقالي */
+                        color: #ffffff; /* أبيض */
+                        text-decoration: none;
+                        cursor: pointer;
+                        margin-right: 10px; /* تباعد بين الأزرار */
+                    }
+                    .button:last-child {
+                        margin-right: 0; /* إلغاء التباعد بين الأزرار الأخيرة */
+                    }
+                    .button:hover {
+                        background-color:-90deg,hsl(151, 58%, 46%) 0% ; /* برتقالي غامق عند التحويل */
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        font-weight: bold;
+                        font-size: 23px;
+                    }

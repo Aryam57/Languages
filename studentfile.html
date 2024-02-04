@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+                        <title>personal file</title>
+                        <link rel="stylesheet" href="file.css">
+</head>
+
+<body>
+
+                        <div class="administration">
+                        <form >
+                                                <h2 >File management</h2>
+                                                <label for="firstName">First Name</label><br>
+                                                <input type="text" id="firstName" name="firstName"><br>
+                                        
+                                                <label for="lastName">Last Name</label><br>
+                                                <input type="text" id="lastName" name="lastName"><br>
+                                        
+                                                <label for="email">Email </label><br>
+                                                <input type="email" id="email" name="email"><br>
+                                        
+                                                <label for="password">password</label><br>
+                                                <input type="password" name="password" id="password"><br>
+                                        
+                                                <label for="website">city</label><br>
+                                                <input type="text" id="city" name="city"><br>
+                                        
+                                                <label for="image">personal picture</label><br>
+                                                <input type="file" id="image" name="image"><br>
+                                                
+                                                
+                        </form>
+<form >
+<label for="Choose">The language you want:</label>
+<select id="Choose" name="Choose">
+    <option value="English">English</option>
+    <option value="Arabic">Arabic</option>
+    <option value="Spanish">Spanish</option>
+  
+</select><br>
+
+<label for="competency">Efficiency</label><br>
+<input type="text" id="competency" name="competency" placeholder="Efficiency"><br>
+
+<label for="timeline">My schedule</label><br>
+<input type="text" id="timeline" name="timeline" placeholder="My schedule"><br>
+
+<label for="duration">Duration</label><br>
+<input type="text" id="duration" name="duration" placeholder="Duration"><br>
+
+<label for="time-unit">Unit of time</label><br>
+<select id="time-unit" name="time-unit">
+    <option value="days">Day</option>
+    <option value="weeks">Week</option>
+    <option value="months">Month</option>
+</select>
+</form>
+</div>
+
+<div>
+                        <button onclick="cancelRequest()"> <a href="home.html">exit</a>  </button>
+                        <button onclick="editRequest()">Modify request</button>
+                        <button onclick="completeRequest()"><a href="home.html">submit</a>  </button>
+</div>
+</body>

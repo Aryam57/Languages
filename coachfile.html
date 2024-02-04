@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trainer Management</title>
+<link rel="stylesheet" href="file.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Trainer Management</h2>
+   
+                        <form>
+                                                <label for="firstName">First Name</label><br>
+                                                <input type="text" id="firstName" name="firstName"><br>
+                                        
+                                                <label for="lastName">Last Name</label><br>
+                                                <input type="text" id="lastName" name="lastName"><br>
+                                        
+                                                <label for="resume">age</label><br>
+                                                <input type="text" id="age" name="age"><br>
+                                        
+                                                <label for="Nationality">Nationality</label><br>
+                                                <input type="text" id="lastName" name="lastName"><br>
+                                        
+                                                <label for="email">Email </label><br>
+                                                <input type="email" id="email" name="email"><br>
+                                        
+                                                <label for="password">password</label><br>
+                                                <input type="text"  id="password" name="password"></input><br>
+                                        
+                                                <label for="website">Location</label><br>
+                                                <input type="text" id="location" name="location"><br>
+                                        
+                                                <label for="image">personal picture</label><br>
+                                                <input type="file" id="image" name="image"><br>
+                                        
+                                               
+                                                <label for="resume">CV</label><br>
+                                                <input type="file" id="resume" name="resume"><br>
+                                        
+                                                <label for="skills">Spoken languages</label>
+                                                <textarea id="skills" name="skills"></textarea>
+
+                                                <button class="button">Edit Profile</button>
+                                                <button class="button">Delete Profile</button>
+                                                <button class="button">View Profile</button>
+
+                        </form>
+        
+        
+        <div class="container">
+                        
+                        <h2>Language Learning Requests</h2>
+                        <div class="request-box">
+                            <div class="request">
+                               
+                                <div class="request-details">
+                                    <p><strong>Name:</strong> John Doe</p>
+                                    <p><strong>Level:</strong> Intermediate</p>
+                                    <p><strong>Education:</strong> Bachelor's Degree</p>
+                                    <p><strong>Age:</strong> 30</p>
+                                </div>
+                                <div class="session-info">
+                                    <p><strong>Session Date:</strong> January 15, 2024</p>
+                                    <button class="accept-btn">Accept</button>
+                                    <button class="reject-btn">Reject</button>
+                                </div>
+                            </div>
+                            <div class="request">
+                                
+                                <div class="request-details">
+                                    <p><strong>Name:</strong> Jane Smith</p>
+                                    <p><strong>Level:</strong> Beginner</p>
+                                    <p><strong>Education:</strong> High School Diploma</p>
+                                    <p><strong>Age:</strong> 25</p>
+                                </div>
+                                <div class="session-info">
+                                    <p><strong>Session Date:</strong> February 1, 2024</p>
+                                    <button class="accept-btn">Accept</button>
+                                    <button class="reject-btn">Reject</button>
+                                </div>
+                            </div>
+                            <div class="request">
+                                
+                                <div class="request-details">
+                                    <p><strong>Name:</strong> Alice Johnson</p>
+                                    <p><strong>Level:</strong> Advanced</p>
+                                    <p><strong>Education:</strong> Master's Degree</p>
+                                    <p><strong>Age:</strong> 35</p>
+                                </div>
+                                <div class="session-info">
+                                    <p><strong>Session Date:</strong> March 10, 2024</p>
+                                    <button class="accept-btn">Accept</button>
+                                    <button class="reject-btn">Reject</button>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+      
+      
+
+  
+    
+    <div class="container">
+                        <h2>My Current Requests</h2>
+                        <div class="request-box">
+                            <div class="request" onclick="showNoData()"> Accepted</div>
+                            <div class="request" onclick="showNoData()">unacceptable</div>
+                            <div class="request" onclick="showNoData()">hanging</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <h2>Comments and Ratings</h2>
+                        <div class="comment-box">
+                            <div class="comment">
+                                <p class="commenter">Reem ahmad</p>
+                                <p class="comment-text">It was a very nice experience and I got to know distinguished trainers</p>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                            <div class="comment">
+                                <p class="commenter">Millie</p>
+                                <p class="comment-text">It was really a nice experience</p>
+                                <div class="stars">★★★☆☆</div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    
+</div>
+
+
+
+</body>
+</html>
